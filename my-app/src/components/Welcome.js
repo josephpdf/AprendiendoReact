@@ -1,5 +1,10 @@
-export default function Welcome() {
-    return (
-        <p>Hola, desde Welcome</p>
-    )
+export default function Welcome(props) {
+  console.log(props);
+  const { message, name } = props;
+  return (
+    <div>
+      <h1>Hola, {name}</h1>
+      <p>{message}</p>
+    </div>
+  );
 }
