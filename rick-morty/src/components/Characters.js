@@ -24,12 +24,17 @@ export default function Characters(props) {
                             </>
                         )}</h6>
                         <p>
-                            <span className="text-grey">Episodios:</span>
+                            <span className="text-grey">Episodios: </span>
                             <span>{character.episode.length}</span>
+                        </p>
+                        <p>
+                            <span className="text-grey">Especie: </span>
+                            <span>{character.species}</span>
                         </p>
                     </div>
                 </div>
             ))}
         </div>
+        <span className="back-home">Volver al inicio</span>
     </div>
 }
