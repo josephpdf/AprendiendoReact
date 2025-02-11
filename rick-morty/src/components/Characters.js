@@ -1,7 +1,16 @@
 export default function Characters(props) {
-    console.log(props);
+    const { characters } = props;
+    console.log(characters);
     
-    return <div>
-        <h1>Desde Characters.JS</h1>
+    return <div className="characters">
+        <h1>Personajes</h1>
+        <span className="back-home">Volver al inicio</span>
+        <div className="container-characters">
+            {characters.map((character, index) => (
+                <div className="character-container" key={index}>
+                    <p>{character.name}</p>
+                </div>
+            ))}
+        </div>
     </div>
 }
