@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './components/PrimerComponente';
 import Props from './components/Props';
+import State from './components/State';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Hola mundo!
           <PrimerComponente/>
           <Props nombre="Joseph"/>
+          <State/>
         </p>
         <a
           className="App-link"
