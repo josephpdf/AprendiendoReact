@@ -3,6 +3,7 @@ import './App.css';
 import PrimerComponente from './components/PrimerComponente';
 import Props from './components/Props';
 import State from './components/State';
+import EstilosTradicionales from './components/EstilosTradicionales';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <PrimerComponente/>
           <Props nombre="Joseph"/>
           <State/>
+          <EstilosTradicionales/>
         </p>
         <a
           className="App-link"
