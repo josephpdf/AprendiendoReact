@@ -5,6 +5,7 @@ import Props from './components/Props';
 import State from './components/State';
 import EstilosTradicionales from './components/EstilosTradicionales';
 import EstilosEnLinea from './components/EstilosEnLinea';
+import EstilosEnModulo from './components/EstilosEnModulo';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <State/>
           <EstilosTradicionales/>
           <EstilosEnLinea/>
+          <EstilosEnModulo/>
         </p>
         <a
           className="App-link"
