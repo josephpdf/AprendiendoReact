@@ -6,6 +6,7 @@ import State from './components/State';
 import EstilosTradicionales from './components/EstilosTradicionales';
 import EstilosEnLinea from './components/EstilosEnLinea';
 import EstilosEnModulo from './components/EstilosEnModulo';
+import EstilosConStyled from './components/EstilosConStyled';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <EstilosTradicionales/>
           <EstilosEnLinea/>
           <EstilosEnModulo/>
+          <EstilosConStyled/>
         </p>
         <a
           className="App-link"
