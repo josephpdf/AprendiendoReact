@@ -7,6 +7,8 @@ import EstilosTradicionales from './components/EstilosTradicionales';
 import EstilosEnLinea from './components/EstilosEnLinea';
 import EstilosEnModulo from './components/EstilosEnModulo';
 import EstilosConStyled from './components/EstilosConStyled';
+import Refs from './components/Refs';
+import CicloVidaComponentes from './components/CicloVidaComponentes';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <EstilosEnLinea/>
           <EstilosEnModulo/>
           <EstilosConStyled/>
+          <Refs/>
+          <CicloVidaComponentes/>
         </p>
         <a
           className="App-link"
