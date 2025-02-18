@@ -8,7 +8,8 @@ import EstilosEnLinea from './components/EstilosEnLinea';
 import EstilosEnModulo from './components/EstilosEnModulo';
 import EstilosConStyled from './components/EstilosConStyled';
 import Refs from './components/Refs';
-import CicloVidaComponentes from './components/CicloVidaComponentes';
+/*import CicloVidaComponentes from './components/CicloVidaComponentes';*/
+import Hooks from './components/Hooks';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
           <EstilosEnModulo/>
           <EstilosConStyled/>
           <Refs/>
-          <CicloVidaComponentes/>
+          {/*<CicloVidaComponentes/>*/}
+          <Hooks/>
         </p>
         <a
           className="App-link"
