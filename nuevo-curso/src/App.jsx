@@ -10,6 +10,7 @@ import EstilosConStyled from './components/EstilosConStyled';
 import Refs from './components/Refs';
 /*import CicloVidaComponentes from './components/CicloVidaComponentes';*/
 import Hooks from './components/Hooks';
+import Formularios from './components/Formularios';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Refs/>
           {/*<CicloVidaComponentes/>*/}
           <Hooks/>
+          <Formularios/>
         </p>
         <a
           className="App-link"
